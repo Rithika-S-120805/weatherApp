@@ -8,6 +8,8 @@
     <script defer src="script.js"></script>
     <link rel="stylesheet" href=""https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
+
+  <!--================ BODY ==========================-->
   <body>
     <div class="container">
       <div class="weather-input">
@@ -15,9 +17,18 @@
           <input type="text" id="userLocation" placeholder="Search for Places....">
 
           <select class="converter" id="converter">
-            <option >^C</option>
-            <option >^F</option>
+            <option >°C</option>
+            <option >°F</option>
           </select>
+
+          <i class="ri-search-fill"></i>
+        </div>
+
+        <div>
+          <div class="weatherIcon"></div>
+          <h2 class="temperature"></h2>
+          <div class="feelslike"></div>
+          <div class="description"></div>
         </div>
       </div>
     </div>
