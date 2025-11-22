@@ -39,7 +39,7 @@ function findUserLocation() {
     weatherIcon.style.background=`url( https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png)`
 
     temperature.innerHTML = TemConverter(data.main.temp);
-    feelsLike.innerHTML = "Feels like" + data.main.feels_like;
+    feelsLike.innerHTML = "Feels like " + data.main.feels_like+"°C";
     description.innerHTML = `<i class="fa-brands fa-cloudversify"></i> &nbsp;`+
         data.weather[0].description;
 

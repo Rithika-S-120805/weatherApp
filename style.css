@@ -50,7 +50,7 @@ hr {
     background: linear-gradient(to top, rgb(0,0,0,0.15), rgb(255,255,255,0.15));
     padding: 20px 30px;
     border-radius: 12px;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
     color: black;
     /* Allow sidebar content to scroll if it gets taller than the visible viewport */
     overflow-y: auto;
